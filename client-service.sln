@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kawa.ClientService.AppHost"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kawa.ClientService.ServiceDefaults", "src\Kawa.ClientService.ServiceDefaults\Kawa.ClientService.ServiceDefaults.csproj", "{301D60B6-E794-48CB-842D-A07B1EB487AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E374125E-7B79-4BDC-B72B-CEE7889A9CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kawa.ClientService.Api.Tests", "test\Kawa.ClientService.Api.Tests\Kawa.ClientService.Api.Tests.csproj", "{249672DB-4490-4029-8821-1B25FEFFEA91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{301D60B6-E794-48CB-842D-A07B1EB487AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301D60B6-E794-48CB-842D-A07B1EB487AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301D60B6-E794-48CB-842D-A07B1EB487AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249672DB-4490-4029-8821-1B25FEFFEA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249672DB-4490-4029-8821-1B25FEFFEA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249672DB-4490-4029-8821-1B25FEFFEA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249672DB-4490-4029-8821-1B25FEFFEA91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{249672DB-4490-4029-8821-1B25FEFFEA91} = {E374125E-7B79-4BDC-B72B-CEE7889A9CD3}
 	EndGlobalSection
 EndGlobal
