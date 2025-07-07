@@ -7,6 +7,13 @@ var pgDb = builder.AddPostgres("postgres")
     .WithPgAdmin()
     .AddDatabase("clientServiceDb");
 
+var username = builder.AddParameter("username", "username");
+var password = builder.AddParameter("password", "password");
+
+var rabbitmq = builder.AddRabbitMQ("messaging", username, password)
+                      .WithManagementPlugin();
+
+
 var api = builder.AddProject<Kawa_ClientService_Api>("api")
     .WithReference(pgDb)
     .WaitFor(pgDb);
