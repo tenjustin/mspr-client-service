@@ -16,6 +16,8 @@ var rabbitmq = builder.AddRabbitMQ("messaging", username, password)
 
 var api = builder.AddProject<Kawa_ClientService_Api>("api")
     .WithReference(pgDb)
-    .WaitFor(pgDb);
+    .WithReference(rabbitmq)
+    .WaitFor(pgDb)
+    .WaitFor(rabbitmq);
 
 builder.Build().Run();
