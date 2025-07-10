@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\services\\messagebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\services\\messagebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\services\\messageconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\services\\messageconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\services\\clientmessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\services\\clientmessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7356E32F-19DB-4633-B870-368FCBF5A2A6}|src\\Kawa.ClientService.AppHost\\Kawa.ClientService.AppHost.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7356E32F-19DB-4633-B870-368FCBF5A2A6}|src\\Kawa.ClientService.AppHost\\Kawa.ClientService.AppHost.csproj|solutionrelative:src\\kawa.clientservice.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.api\\services\\messagebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610826A8-CC3D-4605-8BD4-C9730709226F}|src\\Kawa.ClientService.Api\\Kawa.ClientService.Api.csproj|solutionrelative:src\\kawa.clientservice.api\\services\\messagebrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7356E32F-19DB-4633-B870-368FCBF5A2A6}|src\\Kawa.ClientService.AppHost\\Kawa.ClientService.AppHost.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7356E32F-19DB-4633-B870-368FCBF5A2A6}|src\\Kawa.ClientService.AppHost\\Kawa.ClientService.AppHost.csproj|solutionrelative:src\\kawa.clientservice.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7356E32F-19DB-4633-B870-368FCBF5A2A6}|src\\Kawa.ClientService.AppHost\\Kawa.ClientService.AppHost.csproj|c:\\users\\flowup\\source\\repos\\mspr-client-service\\src\\kawa.clientservice.apphost\\kawa.clientservice.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,68 +58,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ClientMessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Services\\ClientMessageHandler.cs",
+              "RelativeDocumentMoniker": "src\\Kawa.ClientService.Api\\Services\\ClientMessageHandler.cs",
+              "ToolTip": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Services\\ClientMessageHandler.cs",
+              "RelativeToolTip": "src\\Kawa.ClientService.Api\\Services\\ClientMessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:43:07.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Services\\MessageConsumerService.cs",
+              "RelativeDocumentMoniker": "src\\Kawa.ClientService.Api\\Services\\MessageConsumerService.cs",
+              "ToolTip": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Services\\MessageConsumerService.cs",
+              "RelativeToolTip": "src\\Kawa.ClientService.Api\\Services\\MessageConsumerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:42:54.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MessageController.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Controllers\\MessageController.cs",
               "RelativeDocumentMoniker": "src\\Kawa.ClientService.Api\\Controllers\\MessageController.cs",
               "ToolTip": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Controllers\\MessageController.cs",
               "RelativeToolTip": "src\\Kawa.ClientService.Api\\Controllers\\MessageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T13:04:34.882Z"
+              "WhenOpened": "2025-07-10T13:04:34.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Models\\Message.cs",
               "RelativeDocumentMoniker": "src\\Kawa.ClientService.Api\\Models\\Message.cs",
               "ToolTip": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Models\\Message.cs",
               "RelativeToolTip": "src\\Kawa.ClientService.Api\\Models\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T13:04:24.71Z"
+              "WhenOpened": "2025-07-10T13:04:24.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MessageBrokerService.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Services\\MessageBrokerService.cs",
               "RelativeDocumentMoniker": "src\\Kawa.ClientService.Api\\Services\\MessageBrokerService.cs",
               "ToolTip": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Services\\MessageBrokerService.cs",
               "RelativeToolTip": "src\\Kawa.ClientService.Api\\Services\\MessageBrokerService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwEQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T13:02:12.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AppHost.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.AppHost\\AppHost.cs",
               "RelativeDocumentMoniker": "src\\Kawa.ClientService.AppHost\\AppHost.cs",
               "ToolTip": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.AppHost\\AppHost.cs",
               "RelativeToolTip": "src\\Kawa.ClientService.AppHost\\AppHost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:34:41.283Z"
+              "WhenOpened": "2025-07-07T15:34:41.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Kawa.ClientService.Api\\Program.cs",
               "ToolTip": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.Api\\Program.cs",
               "RelativeToolTip": "src\\Kawa.ClientService.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:33:47.163Z"
+              "WhenOpened": "2025-07-07T15:33:47.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Kawa.ClientService.AppHost.csproj",
               "DocumentMoniker": "C:\\Users\\FlowUP\\source\\repos\\mspr-client-service\\src\\Kawa.ClientService.AppHost\\Kawa.ClientService.AppHost.csproj",
               "RelativeDocumentMoniker": "src\\Kawa.ClientService.AppHost\\Kawa.ClientService.AppHost.csproj",
