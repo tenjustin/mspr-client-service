@@ -1,3 +1,4 @@
+using Kawa.ClientService.Api.Models;
 using Kawa.ClientService.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,13 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddControllers(); // contrôleurs de msg
+builder.Services.AddControllers();
 
 builder.AddServiceDefaults();
 builder.AddRabbitMQClient("messaging");
 
-// Ajouter le service de messagerie
+// Ajouter les services de messagerie
 builder.Services.AddScoped<IMessageBrokerService, MessageBrokerService>();
+builder.Services.AddScoped<IMessageHandler<ClientMessage>, ClientMessageHandler>();
+builder.Services.AddHostedService<MessageConsumerService>();
 
 var app = builder.Build();
 
@@ -26,7 +29,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapControllers(); //  mapper les routes des contrôleurs
+app.MapControllers();
 
 var summaries = new[]
 {

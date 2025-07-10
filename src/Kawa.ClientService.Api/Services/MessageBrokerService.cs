@@ -44,7 +44,7 @@ public class MessageBrokerService : IMessageBrokerService, IDisposable
         {
             // Déclare l'échange de type Topic (permet le routage basé sur des patterns)
             _channel.ExchangeDeclare(exchange, ExchangeType.Topic, durable: true);
-            
+
             var jsonMessage = JsonSerializer.Serialize(message);
             var body = Encoding.UTF8.GetBytes(jsonMessage);
 
@@ -58,12 +58,12 @@ public class MessageBrokerService : IMessageBrokerService, IDisposable
                 basicProperties: properties,
                 body: body);
 
-            _logger.LogInformation("Message publié sur l'échange {Exchange} avec la clé de routage {RoutingKey}", 
+            _logger.LogInformation("Message publié sur l'échange {Exchange} avec la clé de routage {RoutingKey}",
                 exchange, routingKey);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Échec de la publication du message sur l'échange {Exchange} avec la clé de routage {RoutingKey}", 
+            _logger.LogError(ex, "Échec de la publication du message sur l'échange {Exchange} avec la clé de routage {RoutingKey}",
                 exchange, routingKey);
             throw;
         }

@@ -25,9 +25,9 @@ public class MessageController : ControllerBase
             // Configuration d'échange et de clé de routage
             const string exchange = "client-service";
             var routingKey = $"client.{message.Action?.ToLower() ?? "default"}";
-            
+
             _messageBroker.PublishMessage(exchange, routingKey, message);
-            
+
             return Ok(new { success = true, messageId = message.Id });
         }
         catch (Exception ex)
