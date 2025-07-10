@@ -1,8 +1,5 @@
 using Kawa.ClientService.Api.Models;
 using Kawa.ClientService.Api.Services;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +9,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 
 builder.AddServiceDefaults();
+
+builder.AddNpgsqlDbContext<ClientsDbContext>("client-service-db");
 builder.AddRabbitMQClient("messaging");
 
 // Ajouter les services de messagerie
