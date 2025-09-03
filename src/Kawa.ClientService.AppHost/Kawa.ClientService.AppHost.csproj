@@ -18,6 +18,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Kawa.ClientService.Api\Kawa.ClientService.Api.csproj" />
+      <ProjectReference Include="..\Kawa.ClientService.MigrationService\Kawa.ClientService.MigrationService.csproj" />
       <ProjectReference Include="..\Kawa.ClientService.ServiceDefaults\Kawa.ClientService.ServiceDefaults.csproj" />
     </ItemGroup>
 
