@@ -13,11 +13,12 @@ var password = builder.AddParameter("password", "password");
 var rabbitmq = builder.AddRabbitMQ("messaging", username, password)
                       .WithManagementPlugin();
 
+var migration = builder.AddProject<Kawa_ClientService_MigrationService>("migration")
+    .WithReference(pgDb)
+    .WaitFor(pgDb);
 
 var api = builder.AddProject<Kawa_ClientService_Api>("api")
-    .WithReference(pgDb)
-    .WithReference(rabbitmq)
-    .WaitFor(pgDb)
-    .WaitFor(rabbitmq);
+    .WithReference(migration)
+    .WaitFor(migration);
 
 builder.Build().Run();
