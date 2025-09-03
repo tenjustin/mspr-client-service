@@ -1,5 +1,6 @@
 using Kawa.ClientService.Api.Models;
 using Kawa.ClientService.Api.Services;
+using Kawa.ClientService.ServiceDefaults.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 

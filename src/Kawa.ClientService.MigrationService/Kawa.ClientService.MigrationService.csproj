@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Kawa.ClientService.MigrationService-2d9eb86e-1ef8-4095-a668-060ab9f2382d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.4.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kawa.ClientService.Api\Kawa.ClientService.Api.csproj" />
+    <ProjectReference Include="..\Kawa.ClientService.ServiceDefaults\Kawa.ClientService.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>
