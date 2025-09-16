@@ -8,7 +8,7 @@ builder.Services.AddHostedService<Worker>();
 builder.Services.AddOpenTelemetry()
     .WithTracing(tracing => tracing.AddSource(Worker.ActivitySourceName));
 
-builder.AddNpgsqlDbContext<ClientsDbContext>("client-service-db");
+builder.AddNpgsqlDbContext<ClientsDbContext>("clientServiceDb");
 
 var host = builder.Build();
 host.Run();
