@@ -18,7 +18,10 @@ var migration = builder.AddProject<Kawa_ClientService_MigrationService>("migrati
     .WaitFor(pgDb);
 
 var api = builder.AddProject<Kawa_ClientService_Api>("api")
+    .WithReference(pgDb)
+    .WithReference(rabbitmq)
     .WithReference(migration)
+    .WaitFor(rabbitmq)
     .WaitFor(migration);
 
 builder.Build().Run();

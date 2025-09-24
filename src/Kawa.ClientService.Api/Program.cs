@@ -1,6 +1,7 @@
 using Kawa.ClientService.Api.Models;
 using Kawa.ClientService.Api.Services;
 using Kawa.ClientService.ServiceDefaults.Database;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +14,15 @@ builder.Services.AddControllers();
 
 builder.AddServiceDefaults();
 
-builder.AddNpgsqlDbContext<ClientsDbContext>("client-service-db");
+builder.Services.AddDbContext<ClientsDbContext>(opt =>
+{
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("clientServiceDb"));
+});
 builder.AddRabbitMQClient("messaging");
+
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<ClientsDbContext>("Database")
+    .AddRabbitMQ(builder.Configuration.GetConnectionString("messaging"), name: "RabbitMQ");
 
 // Ajouter les services de messagerie
 builder.Services.AddScoped<IMessageBrokerService, MessageBrokerService>();
@@ -33,6 +41,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.MapHealthChecks("/healthz");
 app.MapControllers();
 
 app.Run();
