@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-Kawa.ClientService.MigrationService-2d9eb86e-1ef8-4095-a668-060ab9f2382d</UserSecretsId>
+    <ContainerRepository>tenjustin/client-service-migrations</ContainerRepository>
+      <ContainerRegistry>ghcr.io</ContainerRegistry>
   </PropertyGroup>
 
   <ItemGroup>
